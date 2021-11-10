@@ -9,7 +9,6 @@ public class Report {
             tempString = student.getStudentName() + " ( " + student.getStudentOccupation() +
                     " ) " + Course.courseReport(Course.courseTimeLeft(course), Course.timeUntilEnd(time));
         } else if (reportType.equals("Long")) {
-
         }
         return tempString;
     }
